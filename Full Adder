@@ -1,0 +1,25 @@
+a=input('input 1st number');
+
+b=input('input second number');
+
+if(a==1&&b==1)
+
+    cin=1;
+
+else
+
+    cin=0;
+
+end
+
+
+
+c=((~a&b)||(a&~b));
+
+c=((~c&cin)||(c&~cin));
+
+d=(a&b)|(((~a&b)||(a&~b))&c);
+
+fprintf('The output is: sum: %d \n',c);
+
+fprintf('The output is: carry: %d \n',d);
