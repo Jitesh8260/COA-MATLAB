@@ -1,0 +1,45 @@
+a=input('Enter array');
+
+b=a;
+
+l=length(a);
+
+temp=l;
+
+temp2=l;
+
+while(temp2>0)
+
+    if(temp2==1)
+
+        b(1)=0;
+
+    else
+
+    b(temp2)=a(temp2-1);
+
+    end
+
+        temp2=temp2-1;
+
+
+
+end
+
+%
+
+%while(temp>0)
+
+  %  b(temp)=a(temp);
+
+ %   temp=temp-1;
+
+%end
+
+%
+
+display(b)
+
+
+
+    
