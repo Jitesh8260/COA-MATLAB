@@ -1,0 +1,37 @@
+function res=myrshift(a);
+
+
+
+
+
+b=a;
+
+l=length(a);
+
+temp2=l;
+
+while(temp2>0)
+
+    if(temp2==l)
+
+        b(l)=a(1);
+
+    else
+
+    b(temp2)=a(temp2+1);
+
+    end
+
+        temp2=temp2-1;
+
+
+
+end
+
+
+
+display(b)
+
+
+
+end    
