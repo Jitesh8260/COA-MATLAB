@@ -1,0 +1,18 @@
+function andg=andg2(a,b);
+
+
+
+
+
+    fprintf('%d\n',a&b);
+
+    display(a&b);
+
+    
+
+    
+
+    
+
+    
+
