@@ -1,0 +1,7 @@
+a=input('input 1st number');
+
+b=input('input second number');
+
+c=~(a&b);
+
+fprintf('The output is: %d',c);
